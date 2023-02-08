@@ -1,0 +1,86 @@
+table{
+    border-collapse: collapse;
+    border-end-start-radius: 50px;
+    border-radius: 10px;
+    border-style: hidden;
+    background-color: skyblue;
+}
+
+td{
+    padding: 15px 55px;
+    margin: 0;
+    border: none;
+    font-size: 22px;
+    border-bottom: 1px solid rgb(37, 132, 170);
+    border-left: 1px solid rgb(37, 132, 170);
+}
+
+.active-td{
+    background-color: rgb(0, 183, 255);
+    color: white;
+    border-radius: 10px;
+}
+
+#main-div{
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px;
+}
+
+#simpleResult{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    width: 100px;
+}
+
+#resultImg{
+    width: 100px;
+}
+
+#btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-div>div{
+    background-color: black;
+    color: white;
+    margin: 20px 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header>h1{
+    font-family: "Black Han Sans";
+    text-align: center;
+    font-size: 60px;
+    margin: 50px 0;
+}
+
+header>p{
+    text-align: right;
+    font-size: 12px;
+    margin: 0 100px 0 0;
+}
+
+header>hr{
+    border: 0;
+    height: 3px;
+    background-color: black;
+    margin: 10px 80px 50px 80px;
+}
+
+#detailText{
+    text-align: center;
+}
+
+#title{
+    font-family: "Black Han Sans";
+    font-size: 30px;
+}
+
+#memo{
+    font-family: "Hi Melody";
+    font-size: 25px;
+}

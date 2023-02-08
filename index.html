@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--글꼴-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Hi+Melody&display=swap" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="./css.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <header>
+        <h1>MBTI상성</h1>
+        <p id="help">자신의 MBTI를 모르는 경우 <span><a href="https://www.16personalities.com/ko/%EB%AC%B4%EB%A3%8C-%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95-%EA%B2%80%EC%82%AC">이 곳</a></span>에서 검사하실 수 있습니다.</p>
+        <hr>
+    </header>
+
+    <main>
+
+        <div id="main-div">
+
+            <div id="mbtiSelect"><!--왼쪽 선택창-->
+                <table class="mbti-table">
+                    <tr>
+                        <td class="typeI typeL" id="1-I">I</td>
+                        <td class="typeI typeL" id="1-E">E</td>
+                    </tr>
+                    <tr>
+                        <td class="typeS typeL" id="2-S">S</td>
+                        <td class="typeS typeL" id="2-N">N</td>
+                    </tr>
+                    <tr>
+                        <td class="typeT typeL" id="3-T">T</td>
+                        <td class="typeT typeL" id="3-F">F</td>
+                    </tr>
+                    <tr>
+                        <td class="typeJ typeL" id="4-J">J</td>
+                        <td class="typeJ typeL" id="4-P">P</td>
+                    </tr>
+                </table>
+                <p id="leftResult" hidden></p>
+            </div>
+
+
+            <div id="simpleResult"><!--단순 결과창-->
+                <img id="imgfile" width="100px" height="100px" hidden>
+            </div>
+
+
+            <div id="mbtiSelect"><!--왼쪽 선택창-->
+                <table class="mbti-table">
+                    <tr>
+                        <td class="typeI typeR" id="1-I">I</td>
+                        <td class="typeI typeR" id="1-E">E</td>
+                    </tr>
+                    <tr>
+                        <td class="typeS typeR" id="2-S">S</td>
+                        <td class="typeS typeR" id="2-N">N</td>
+                    </tr>
+                    <tr>
+                        <td class="typeT typeR" id="3-T">T</td>
+                        <td class="typeT typeR" id="3-F">F</td>
+                    </tr>
+                    <tr>
+                        <td class="typeJ typeR" id="4-J">J</td>
+                        <td class="typeJ typeR" id="4-P">P</td>
+                    </tr>
+                </table>
+                <p id="rightResult" hidden></p>
+            </div>
+
+        </div>
+
+
+
+        <div id="btn-div">
+            <div id="selectBtn">
+                검사
+            </div>
+
+            <div id="resetBtn">
+                리셋
+            </div>
+        </div>
+
+
+
+        <div id="detailText">
+            <p id="title"></p>
+            <p id="memo"></p>
+        </div>
+
+    </main>
+
+    <script type="module" src="./js.js"></script>
+</body>
+</html>
